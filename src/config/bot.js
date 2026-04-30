@@ -25,7 +25,7 @@ export const botConfig = {
     activities: [
       {
         // Text users will see (example: "Playing /help | Titan Bot").
-        name: "Coded By archiveNiles",
+        name: ".gg/spearmaceffa",
         // Activity type number (0 = Playing).
         type: 0, 
       },
@@ -54,11 +54,18 @@ export const botConfig = {
   // APPLICATIONS SYSTEM
   // =========================
   applications: {
-    // Default questions shown when someone fills out an application.
     defaultQuestions: [
-      { question: "What is your name?", required: true },
+      { question: "Whats your discord username and in game nickname?", required: true },
       { question: "How old are you?", required: true },
       { question: "Why do you want to join?", required: true },
+      { question: "How active are you daily?", required: true },
+      { question: "what makes you different from other applicants?", required: true },
+      { question: "Will You Come if we Need you?", required: true },
+      { question: "how Well do you handle stress situations?", required: true },
+      { question: "2 players are arguing in game and using strong language what will you do to stop them?", required: true },
+      { question: "a player have been flagged and punished by the anti cheat.. he opens a ticket about it. what are you gonna ask them to do?", required: true },
+      { question: "is there anything else you want to add?", required: true },
+
     ],
 
     // Embed colors by application status.
@@ -543,7 +550,3 @@ export function getRandomColor() {
 }
 
 export default botConfig;
-
-
-
-
